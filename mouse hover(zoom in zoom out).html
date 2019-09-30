@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		body
+		{
+			font-family: arial,helvetica;
+		}
+		h1
+		{
+			text-align: center;
+			line-height: 45px;
+		}
+		h1 span
+		{
+			color: red;
+		}
+		.box
+		{
+			border: 2px solid black;
+			width: 400px;
+			margin: 10px auto; 
+			position: relative;
+			overflow: hidden;
+		}
+		.box img
+		{
+			width: 100%;
+			height: auto;
+			transition: all 0.4s;
+		}
+		.box:hover img
+		{
+			transform: scale(0);
+		}
+		.box .box-content
+		{
+			background:brown;
+			color: #fff;
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 100%;
+			width: 100%;
+			padding:30px;
+			box-sizing: border-box;
+			transform: scale(0) rotate(-180deg);
+			opacity: 0;
+			transition: all 0.4s;
+		}
+		.box:hover .box-content
+		{
+			opacity: 1;
+			transform: scale(1) rotate(0deg);
+			transition-delay: 0.2s;
+		}
+
+	</style>
+</head>
+<body>
+	<h1><span>PN Infosys</span><br>Sliding Caption Hover effect</h1>
+		<div class="box">
+			<img src="img/pic1.png">
+			<div class="box-content">
+				<h3>zxdghgckkduxfyvxdgvyxgc</h3>
+				<p>sjdj kjdhafkhsda kjhsdf kjhvfkjghfds kjhgfv kjhlfv ul jhkj iuhldf kjhkjgvd hklufd mhkjv ujhv jgkj jgu jytuyk jgtuyt kuytiu juytiu jhgtiu kjtku hjgj kuk bjghgl kjgugt jgku jmmguyt bugyu</p>
+			</div>
+		</div>
+</body>
+</html>

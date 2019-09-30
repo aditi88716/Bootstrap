@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<title>Homework 2</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+	<style type="text/css">
+		.container-fluid
+		{
+  			position: relative;
+  			
+		}
+		.container 
+		{
+  			position: relative;
+		}
+
+		.top-left 
+		{
+  			position: absolute;
+  			top: 500px;
+  			left: 50px;
+		}
+		.text-block 
+		{
+  			position: absolute;
+  			top: 15%;
+  			color: white;
+  			padding-left: 20px;
+  			padding-right: 45%;
+		}
+		.box
+		{
+			border-radius: 10px;
+			position: relative;
+			overflow: hidden;
+			margin: 10px auto; 
+		}
+		.box img
+		{
+			width: 100%;
+			height: auto;
+
+		}		
+		.content
+		{
+			color: #fff;
+			background: rgba(0,0,0,0.2);
+			position: absolute;
+			top: 0;
+			/*left: -100%;*/
+			right: -100%;
+			/*left:100;*/
+			/*left: -100px;*/
+			width: 100%;
+			height: 100%;
+			padding:20px;
+			box-sizing: border-box;
+			transition: all  0.5s; 
+
+		}
+		.box:hover .content
+		{
+			/*left: 0;*/
+			right: 0;
+
+		}
+		.content p
+		{
+			border-top: 1px solid white;
+			border-bottom: 1px solid white;
+			padding: 20px;
+		}*/
+		
+	</style>
+<body>
+	<div class="container-fluid">
+		<div class="row" style="background-color: #140a15">
+			<!--<div class="col-md-1">
+				
+			</div>end of col-md-1-->
+			<div class="col-md-6 text-light text-white" style="padding: 10px; font-size: 15px">
+				<i class="fa fa-facebook" aria-hidden="true"></i>
+				<i class="fa fa-twitter" aria-hidden="true"></i>
+				<i class="fa fa-youtube-play" aria-hidden="true"></i>
+				<i class="fa fa-google-plus" aria-hidden="true"></i>
+			</div><!--end of col-md-5-->
+			<div class="col-md-6 text-right text-white" style="padding: 10px; font-size: 13px">
+				<i class="fa fa-envelope" aria-hidden="true"></i> salon@gmail.com&nbsp;
+				<i class="fa fa-phone" aria-hidden="true"></i>+91-9827414827
+			</div><!--end of col-md-5-->
+		</div><!--end of row-->
+	</div><!--end of container-fluid-->
+	<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-dark ">
+				<a class="navbar-brand" href="#"><img src="img/people.png" style="padding-left:50px "></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="color:#140a15">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse text-right" id="navbarNavDropdown" style="padding-top: 80px;">
+					<ul class="navbar-nav"><!--display inline block-->
+						<li class="nav-item active" style="padding: 10px">
+							<a class="nav-link" href="about.html"><span style="color:#140a15 ">About Us</span></a>
+						</li>
+						<li class="nav-item" style="padding: 10px"> 
+							<a class="nav-link" href="#"><span style="color:#140a15 ">Online Booking</span></a>
+						</li>
+						<li class="nav-item" style="padding: 10px">
+							<a class="nav-link" href="services.html"><span style="color:#140a15 ">Services</span></a>
+						</li>
+						<li class="nav-item active" style="padding: 10px">
+							<a class="nav-link" href="#"><span style="color:#140a15 ">Policies</span><span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item" style="padding: 10px"> 
+							<a class="nav-link" href="#"><span style="color:#140a15 ">Products</span></a>
+						</li>
+						<li class="nav-item" style="padding: 10px">
+							<a class="nav-link" href="#"><span style="color:#140a15 ">Stylists</span></a>
+						</li>
+						<li class="nav-item" style="padding: 10px">
+							<a class="nav-link" href="#"><span style="color:#140a15 ">Contact Us</span></a>
+						</li>
+						<i class="fa fa-search" aria-hidden="true" style="padding: 10px; color:#140a15;padding-top: 18px"></i>
+					</ul>	
+				</div>
+			</nav>
+	</div><!--END OD CONTAINER-->
+	<div class="container-fluid">
+		<div class="row">
+			<img src="img/hw3.1.jpg" class="img-fluid w-100 h-50">
+			<!--<div class="top-left">Top Left</div>-->
+			<div class="text-block"> 
+    			<h1 style="font-family: Sentinel SSm A, Sentinel SSm B, Helvetica Neue, Helvetica, Arial, sans-serif;font-style: italic;">Our Salon</h1>
+    			<br>
+    			<h3 style="font-family: Gotham SSm A, Gotham SSm B, Helvetica Neue, Helvetica, Arial, sans-serif;">YOU’VE GOT THE ATTITUDE, NOW GET THE LOOK!</h3>
+    			<p>We’re known around town for our sexy and inventive hairstyles. Our team of professionals is always ready to provide you with an experience that will leave you satisfied and projecting confidence with your new look. The full customer experience we offer will match our clients’ aspirations with proven techniques and artistry to bring wishes to reality. Providing the ultimate beauty service, we will have you shine with brilliance and perfection.</p>
+    			<p>We’re known around town for our sexy and inventive hairstyles. Our team of professionals is always ready to provide you with an experience that will leave you satisfied and projecting confidence with your new look. The full customer experience we offer will match our clients’ aspirations with proven techniques and artistry to bring wishes to reality. Providing the ultimate beauty service, we will have you shine with brilliance and perfection.</p>
+    			<br>
+				<a href="#" class="btn btn-outline-dark" style="padding: 10px;margin: auto;" > Book Now <i class="fa fa-angle-right" aria-hidden="true"></i>
+				</a>
+  			</div>
+		</div><!--END OF ROW-->
+	</div><!--END OF CONTAINER-FLUID-->
+	<br>
+	<br>
+	<div class="container">
+		<div class="row w-100 h-100">
+			<div class="col-md-4">
+				<img src="img/hw3.6.jpg" class="img-fluid">
+			</div>
+			<div class="col-md-8" style="padding-top: 20px">
+				<h3 style="font-family: Sentinel SSm A, Sentinel SSm B, Helvetica Neue, Helvetica, Arial, sans-serif;font-style: italic;margin: auto;color:#140a15"><span style="border-bottom: 2px; border-color:#140a15;border-width: 50% ">Make up</span></h3>
+					Charges : $210<br>
+				<i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star-half-o" aria-hidden="true" style="color: #fbaa1a"></i>
+				<p style="font-family: Sentinel SSm A, Sentinel SSm B, Helvetica Neue, Helvetica, Arial, sans-serif;font-style: italic;margin: auto;color:#140a15" class="text-justify"><span style="border-bottom: 2px; border-color:#140a15;border-width: 50% ">
+					At Our salon, we specialize in Microblading Brows, Makeup/Hair Styling for All Events: Weddings, Portraits, Gala, Fashion, Girl's night, On-Camera/Production. Makeup Lessons & Makeup Parties
+
+					Our Boutique exclusively retails Jentry Kelley Cosmetics (LOVE). And, Glo Minerals as well as the full line of The Balm.  To find the perfect match for you, we recommend booking a complimentary product consultation with the owner Rhea or one of her artists to ensure your time and attention, but walk-ins are always welcome! And, book a Makeup Lesson for a full look
+				</p>
+			</div>
+		</div>
+		<br>
+		<div class="row w-100 h-100">
+			<div class="col-md-4">
+				<img src="img/hw3.4.jpg" class="img-fluid">
+			</div>
+			<div class="col-md-8" style="padding-top: 20px">
+				<h3 style="font-family: Sentinel SSm A, Sentinel SSm B, Helvetica Neue, Helvetica, Arial, sans-serif;font-style: italic;margin: auto;color:#140a15"><span style="border-bottom: 2px; border-color:#140a15;border-width: 50% ">Skin care</span></h3>
+					Charges : $210<br>
+				<i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star-half-o" aria-hidden="true" style="color: #fbaa1a"></i>
+				<p style="font-family: Sentinel SSm A, Sentinel SSm B, Helvetica Neue, Helvetica, Arial, sans-serif;font-style: italic;margin: auto;color:#140a15" class="text-justify"><span style="border-bottom: 2px; border-color:#140a15;border-width: 50% ">
+					At Our salon, we specialize in Microblading Brows, Makeup/Hair Styling for All Events: Weddings, Portraits, Gala, Fashion, Girl's night, On-Camera/Production. Makeup Lessons & Makeup Parties
+
+					Our Boutique exclusively retails Jentry Kelley Cosmetics (LOVE). And, Glo Minerals as well as the full line of The Balm.  To find the perfect match for you, we recommend booking a complimentary product consultation with the owner Rhea or one of her artists to ensure your time and attention, but walk-ins are always welcome! And, book a Makeup Lesson for a full look
+				</p>
+			</div>
+		</div>
+		<br>
+		<div class="row w-100 h-100">
+			<div class="col-md-4">
+				<img src="img/hw3.14.jpg" class="img-fluid">
+			</div>
+			<div class="col-md-8" style="padding-top: 20px">
+				<h3 style="font-family: Sentinel SSm A, Sentinel SSm B, Helvetica Neue, Helvetica, Arial, sans-serif;font-style: italic;margin: auto;color:#140a15"><span style="border-bottom: 2px; border-color:#140a15;border-width: 50% ">Pedicure</span></h3>
+					Charges : $210<br>
+				<i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star-half-o" aria-hidden="true" style="color: #fbaa1a"></i>
+				<p style="font-family: Sentinel SSm A, Sentinel SSm B, Helvetica Neue, Helvetica, Arial, sans-serif;font-style: italic;margin: auto;color:#140a15" class="text-justify"><span style="border-bottom: 2px; border-color:#140a15;border-width: 50% ">
+					At Our salon, we specialize in Microblading Brows, Makeup/Hair Styling for All Events: Weddings, Portraits, Gala, Fashion, Girl's night, On-Camera/Production. Makeup Lessons & Makeup Parties
+
+					Our Boutique exclusively retails Jentry Kelley Cosmetics (LOVE). And, Glo Minerals as well as the full line of The Balm.  To find the perfect match for you, we recommend booking a complimentary product consultation with the owner Rhea or one of her artists to ensure your time and attention, but walk-ins are always welcome! And, book a Makeup Lesson for a full look
+				</p>
+			</div>
+		</div>
+		<br>
+		<div class="row w-100 h-100">
+			<div class="col-md-4">
+				<img src="img/hw3.13.jpg" class="img-fluid">
+			</div>
+			<div class="col-md-8" style="padding-top: 20px">
+				<h3 style="font-family: Sentinel SSm A, Sentinel SSm B, Helvetica Neue, Helvetica, Arial, sans-serif;font-style: italic;margin: auto;color:#140a15"><span style="border-bottom: 2px; border-color:#140a15;border-width: 50% ">Spa</span></h3>
+					Charges : $210<br>
+				<i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star-half-o" aria-hidden="true" style="color: #fbaa1a"></i>
+				<p style="font-family: Sentinel SSm A, Sentinel SSm B, Helvetica Neue, Helvetica, Arial, sans-serif;font-style: italic;margin: auto;color:#140a15" class="text-justify"><span style="border-bottom: 2px; border-color:#140a15;border-width: 50% ">
+					At Our salon, we specialize in Microblading Brows, Makeup/Hair Styling for All Events: Weddings, Portraits, Gala, Fashion, Girl's night, On-Camera/Production. Makeup Lessons & Makeup Parties
+
+					Our Boutique exclusively retails Jentry Kelley Cosmetics (LOVE). And, Glo Minerals as well as the full line of The Balm.  To find the perfect match for you, we recommend booking a complimentary product consultation with the owner Rhea or one of her artists to ensure your time and attention, but walk-ins are always welcome! And, book a Makeup Lesson for a full look
+				</p>
+			</div>
+		</div>
+		<br>
+		<div class="row w-100 h-100">
+			<div class="col-md-4">
+				<img src="img/hw3.11.jpg" class="img-fluid">
+			</div>
+			<div class="col-md-8" style="padding-top: 20px">
+				<h3 style="font-family: Sentinel SSm A, Sentinel SSm B, Helvetica Neue, Helvetica, Arial, sans-serif;font-style: italic;margin: auto;color:#140a15"><span style="border-bottom: 2px; border-color:#140a15;border-width: 50% ">Manicure</span></h3>
+					Charges : $210<br>
+				<i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star-half-o" aria-hidden="true" style="color: #fbaa1a"></i>
+				<p style="font-family: Sentinel SSm A, Sentinel SSm B, Helvetica Neue, Helvetica, Arial, sans-serif;font-style: italic;margin: auto;color:#140a15" class="text-justify"><span style="border-bottom: 2px; border-color:#140a15;border-width: 50% ">
+					At Our salon, we specialize in Microblading Brows, Makeup/Hair Styling for All Events: Weddings, Portraits, Gala, Fashion, Girl's night, On-Camera/Production. Makeup Lessons & Makeup Parties
+
+					Our Boutique exclusively retails Jentry Kelley Cosmetics (LOVE). And, Glo Minerals as well as the full line of The Balm.  To find the perfect match for you, we recommend booking a complimentary product consultation with the owner Rhea or one of her artists to ensure your time and attention, but walk-ins are always welcome! And, book a Makeup Lesson for a full look
+				</p>
+			</div>
+		</div>
+		<br>
+		<div class="row w-100 h-100">
+			<div class="col-md-4">
+				<img src="img/hw3.3.jpg" class="img-fluid">
+			</div>
+			<div class="col-md-8" style="padding-top: 20px">
+				<h3 style="font-family: Sentinel SSm A, Sentinel SSm B, Helvetica Neue, Helvetica, Arial, sans-serif;font-style: italic;margin: auto;color:#140a15"><span style="border-bottom: 2px; border-color:#140a15;border-width: 50% ">Hair cut</span></h3>
+					Charges : $210<br>
+				<i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star" aria-hidden="true" style="color: #fbaa1a"></i><i class="fa fa-star-half-o" aria-hidden="true" style="color: #fbaa1a"></i>
+				<p style="font-family: Sentinel SSm A, Sentinel SSm B, Helvetica Neue, Helvetica, Arial, sans-serif;font-style: italic;margin: auto;color:#140a15" class="text-justify"><span style="border-bottom: 2px; border-color:#140a15;border-width: 50% ">
+					At Our salon, we specialize in Microblading Brows, Makeup/Hair Styling for All Events: Weddings, Portraits, Gala, Fashion, Girl's night, On-Camera/Production. Makeup Lessons & Makeup Parties
+
+					Our Boutique exclusively retails Jentry Kelley Cosmetics (LOVE). And, Glo Minerals as well as the full line of The Balm.  To find the perfect match for you, we recommend booking a complimentary product consultation with the owner Rhea or one of her artists to ensure your time and attention, but walk-ins are always welcome! And, book a Makeup Lesson for a full look
+				</p>
+			</div>
+		</div>
+		<br>
+	</div>
+			<div class="container-fluid">
+		<div class="row" style="height: 340px;background-color:#140a15 ; color: white; padding: 20px">
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-3">
+								<img src="img/people.png">
+								<h3 style="color: black;padding-left: 25px">Salon</h3>
+							</div>
+							<div class="col-md-8" style="padding-top: 10px">
+								<p class="text-justify">We are a team based in New Delhi, India. We are dedicated to creating a one-of-a kind experience for our customers who visit our salon at various metropolitan cities across India. </p>
+								<a href="#" class="btn btn-outline-dark" style="padding: 10px;margin: auto;" > Book Now <i class="fa fa-angle-right" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+						
+					</div><!--END OF col-md-6-->
+					<div class="col-md-6" style="padding-left:10px ">
+						<h2>Contact Us</h2>
+						<p><span style="color: #fbaa1a;">Address: </span>
+						<br>B6/22, 1st Floor, Safdarjung Enclave, New Delhi 110029, INDIA<br>
+						<span style="color: #fbaa1a;">Franchise Enquiry: </span>
+						<br>Mobile: +91 9313663486, Email: franchise@firstfiddle.in<br>
+						<span style="color: #fbaa1a;">HR Enquiry:</span>
+						<br>Mobile: +91 9999796366, Email: careers@firstfiddle.in<br>
+						<span style="color: #fbaa1a;">Other Enquiry:</span>
+						<br>Mobile: +91 8448787354, Email: customercare@firstfiddle.in</p>
+						<br>
+						<i class="fa fa-linkedin-square" aria-hidden="true" style="color: white; font-size: 35px"></i>&nbsp;
+						<i class="fa fa-facebook-square" aria-hidden="true" style="color: white; font-size: 35px"></i>&nbsp;
+						<i class="fa fa-twitter" aria-hidden="true" style="color: white; font-size: 35px"></i>&nbsp;
+						<i class="fa fa-instagram" aria-hidden="true" style="color: white; font-size: 35px"></i>&nbsp;
+
+					</div><!--END OF col-md-6-->
+				</div><!--END OF ROW-->
+	</div>
+</body>
+</html>
